@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.face.plus.SplashActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="单人图片检测"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="164dp"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="多人图片检测"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="164dp"
+        android:layout_below="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="摄像头"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="240dp"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/button3"
+        android:layout_alignParentStart="true"/>
+</RelativeLayout>
